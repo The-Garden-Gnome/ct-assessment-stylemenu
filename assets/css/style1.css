@@ -74,6 +74,8 @@ dd {margin: 0 0 12px 0; display: flex;}
 .price {
     order: 2;
     padding-left: 10px;
+    color: firebrick;
+    font-size: large;
 }
 
 address {padding: 10px;}
