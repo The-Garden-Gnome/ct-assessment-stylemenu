@@ -47,6 +47,11 @@ h2 {margin: 0;}
         - set the font color to #6d4c41
 */
 
+#starters,#soupssalads,#entrees,#desserts {
+    color: #6d4c41;
+    font-variant: small-caps;
+    
+}
 
 /* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
