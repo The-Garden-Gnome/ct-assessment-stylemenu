@@ -7,7 +7,7 @@
 */
 
 body {
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 18px;
     background-image: url("../images/map-bg.jpg");
 }
@@ -47,7 +47,7 @@ h2 {margin: 0;}
         - set the font color to #6d4c41
 */
 
-#starters,#soupssalads,#entrees,#desserts {
+h2 {
     color: #6d4c41;
     font-variant: small-caps;
     
@@ -84,3 +84,6 @@ address {padding: 10px;}
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
 */
+Footer { 
+    border: 2px dashed rosybrown;
+}
