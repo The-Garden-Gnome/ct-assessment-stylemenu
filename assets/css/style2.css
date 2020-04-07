@@ -35,7 +35,9 @@ h2 {margin-top: 0;}
     Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
         - Show each of the section headings of the menu in uppercase
 */
-
+h2 {
+        text-transform: capitalize;
+}
 
 /* 
      Update the following ruleset (dt) to accomplish the following:
@@ -44,6 +46,8 @@ h2 {margin-top: 0;}
 */
 dt {
     display: inline;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 /* 
